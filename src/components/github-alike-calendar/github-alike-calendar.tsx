@@ -10,7 +10,8 @@ export class GithubAlikeCalendar {
   @Prop() responsive: boolean;
   @Element() el: HTMLElement;
   componentDidLoad() {
-    GitHubCalendar(this.el.shadowRoot.getElementById("calendar"), "imhta");
+    // Thanks for @IonicaBizau for Github Calender lib
+    GitHubCalendar(this.el.shadowRoot.getElementById("calendar"), "imhta", {responsive: this.responsive});
   }
   render() {
     return (
