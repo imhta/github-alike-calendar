@@ -2,7 +2,7 @@
 
 # Github alike calendar
 
-This is Github alike calendar a standalone Web Component using Stencil. Inspired from [@IonicaBiza's github calendar](https://github.com/IonicaBizau/github-calendar)
+This is Github alike calendar a standalone Web Component using Stencil. Wrapper of [@IonicaBiza's github calendar](https://github.com/IonicaBizau/github-calendar)
 
 <img src="screenshots/1.png">
 
