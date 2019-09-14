@@ -24,5 +24,8 @@
   "devDependencies": {
     "@stencil/core": "^1.3.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "github-calendar": "^1.3.1"
+  }
 }
