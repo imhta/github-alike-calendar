@@ -1,7 +1,7 @@
 {
-  "name": "github-alike-calender",
+  "name": "github-alike-calendar",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Embed your GitHub calendar everywhere.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/github-alike-calender/github-alike-calender.js",
+  "unpkg": "dist/github-alike-calendar/github-alike-calendar.js",
   "files": [
     "dist/",
     "loader/"
