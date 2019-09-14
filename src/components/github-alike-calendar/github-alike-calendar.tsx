@@ -1,18 +1,22 @@
-import { Component, Host, h } from '@stencil/core';
-
+import { Component, h, Prop, Element } from "@stencil/core";
+import GitHubCalendar from "github-calendar";
 @Component({
-  tag: 'github-alike-calendar',
-  styleUrl: 'github-alike-calendar.css',
+  tag: "github-alike-calendar",
+  styleUrl: "github-alike-calendar.css",
   shadow: true
 })
 export class GithubAlikeCalendar {
-
+  @Prop() username: string;
+  @Prop() responsive: boolean;
+  @Element() el: HTMLElement;
+  componentDidLoad() {
+    GitHubCalendar(this.el.shadowRoot.getElementById('calendar'), "imhta");
+  }
   render() {
     return (
-      <Host>
-        <slot></slot>
-      </Host>
+      <div class="calendar" id="calendar">
+        loading github data ...
+      </div>
     );
   }
-
 }
