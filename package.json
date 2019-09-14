@@ -1,6 +1,6 @@
 {
   "name": "github-alike-calendar",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Embed your GitHub calendar everywhere.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
