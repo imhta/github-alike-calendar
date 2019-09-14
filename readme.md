@@ -8,6 +8,11 @@ This is Github alike calendar a standalone Web Component using Stencil. Inspired
 
 ## Getting Started
 
+```html
+
+  <github-alike-calendar username="imhta" responsive="true"></github-alike-calendar>
+
+```
 ### Using this component
 
 #### Script tag
