@@ -10,12 +10,12 @@ export class GithubAlikeCalendar {
   @Prop() responsive: boolean;
   @Element() el: HTMLElement;
   componentDidLoad() {
-    GitHubCalendar(this.el.shadowRoot.getElementById('calendar'), "imhta");
+    GitHubCalendar(this.el.shadowRoot.getElementById("calendar"), "imhta");
   }
   render() {
     return (
       <div class="calendar" id="calendar">
-        loading github data ...
+        <p>loading github data...</p>
       </div>
     );
   }
