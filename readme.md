@@ -19,7 +19,7 @@ You can use the element anywhere in your template, JSX, html etc
 
 #### Script tag
 
-- Put a script tag similar to this `<script src='https://unpkg.com/github-alike-calendar@0.0.1/dist/github-alike-calendar.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://cdn.jsdelivr.net/npm/github-alike-calendar@0.0.4/dist/github-alike-calender.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 #### Node Modules
